@@ -5,7 +5,7 @@ import picamera
 from picamera import Color
 import sys
 import subprocess 
-import threading
+#import threading we use in the future
 
 
 '''
