@@ -213,7 +213,7 @@ def handle(msg):
 
 def main():
     #estensione=1
-    password="freemaker02"
+    password="chose your pass"
     chatid_list=[]
     bot.message_loop(handle)
     print ('I am listening ...')
@@ -243,7 +243,7 @@ def foto(nome_file):
 ################################################################################
 
 
-bot = telepot.Bot('378683351:AAGEblRxpQhKtVitFspzCcgqMth9w43jyO0')
+bot = telepot.Bot('Put here your token')
 arduino = serial.Serial( analizza_seriale() ,9600, timeout=500 ) #/dev/ttyACM1
 time.sleep(0.5)
 dati=''
